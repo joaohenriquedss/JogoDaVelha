@@ -27,7 +27,7 @@ def verifica_vitoria(vetor_da_velha , simbolo ):
   # Coluna
   elif(vetor_da_velha[0] == simbolo and vetor_da_velha[3] == simbolo and vetor_da_velha[6] == simbolo):
     resultado = True
-  elif(vetor_da_velha[1] == simbolo and vetor_da_velha[4] ==  simbolo and vetor_da_velha[5] == simbolo):
+  elif(vetor_da_velha[1] == simbolo and vetor_da_velha[4] ==  simbolo and vetor_da_velha[7] == simbolo):
     resultado = True
   elif(vetor_da_velha[2] == simbolo and vetor_da_velha[5] == simbolo and vetor_da_velha[8] == simbolo):
     resultado = True
