@@ -34,6 +34,8 @@ def verifica_vitoria(vetor_da_velha , simbolo ):
   # Vertical
   elif(vetor_da_velha[0] == simbolo and vetor_da_velha[4] == simbolo and vetor_da_velha[8] == simbolo):
     resultado = True
+  elif(vetor_da_velha[6] == simbolo and vetor_da_velha[4] == simbolo and vetor_da_velha[2] == simbolo):
+    resultado = True
   return resultado
 
 def verifica_empate(vetor_da_velha):
